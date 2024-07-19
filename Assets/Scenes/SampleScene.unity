@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731591, g: 0.13414663, b: 0.12107998, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731592, g: 0.13414666, b: 0.12107997, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -436,16 +436,51 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6093592463355912122, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c773daeba55d814787596da3aa00a89, type: 2}
     - target: {fileID: -4683669308469848369, guid: 21671de6cd4d0c346859dad48e7f3a51,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fb2d7c1656d189e48b6f686cbdb309d3, type: 2}
+    - target: {fileID: -1806680513116206669, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2b30499544def74db848295464b2563, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c773daeba55d814787596da3aa00a89, type: 2}
+    - target: {fileID: -804731622281664130, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a2b30499544def74db848295464b2563, type: 2}
+    - target: {fileID: -678588488315902003, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c773daeba55d814787596da3aa00a89, type: 2}
     - target: {fileID: 919132149155446097, guid: 21671de6cd4d0c346859dad48e7f3a51,
         type: 3}
       propertyPath: m_Name
-      value: hen
+      value: Toon Shader Hen
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4bb083e258a863a4598afbaad3f93a19, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: 21671de6cd4d0c346859dad48e7f3a51, type: 3}
@@ -602,7 +637,7 @@ Transform:
   m_GameObject: {fileID: 832575517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 5.717, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -676,11 +711,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 2d0b9a4febcd638408cb9fe2218ff9bd, type: 2}
+    - target: {fileID: -1806680513116206669, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2786832006ebbd74a8d85ee21dba4808, type: 2}
     - target: {fileID: -1461304994638716399, guid: 21671de6cd4d0c346859dad48e7f3a51,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c34be101d7a537a41b5e781bc1ed151b, type: 2}
+    - target: {fileID: -804731622281664130, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2786832006ebbd74a8d85ee21dba4808, type: 2}
     - target: {fileID: -678588488315902003, guid: 21671de6cd4d0c346859dad48e7f3a51,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -690,6 +735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: HLSL Hen
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 21671de6cd4d0c346859dad48e7f3a51,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6317578925029434746, guid: 21671de6cd4d0c346859dad48e7f3a51,
         type: 3}
